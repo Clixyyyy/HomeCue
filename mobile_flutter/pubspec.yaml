@@ -1,0 +1,16 @@
+name: homecue_mobile
+version: 0.3.0+1
+publish_to: none
+description: HomeCue mobile caregiver prototype using the shared FastAPI backend
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  flutter_secure_storage: ^10.3.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

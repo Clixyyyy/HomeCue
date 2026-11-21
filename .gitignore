@@ -1,0 +1,54 @@
+# Local accounts, runtime data, and credentials
+.env
+.env.*
+!.env.example
+backend/storage/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+secrets.h
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flutter, Android, firmware, and generated builds
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+.gradle/
+.pio/
+.cxx/
+local.properties
+
+# Machine-specific editor files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.log
+
+# Generated previews, exports, and private session notes
+/HomeCue_*.png
+*.zip
+docs/REMOTE_ACCESS_LOCAL.md

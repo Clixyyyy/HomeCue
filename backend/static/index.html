@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="HomeCue — a gentle local-first dementia support research prototype." />
+  <title>HomeCue | Everyday help, made simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/styles.css?v=remote-password-6" />
+  <script defer src="/assets/app.js?v=remote-password-6"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <button class="brand" type="button" data-go="home" aria-label="HomeCue homepage">homecue<span class="brand-dot">.</span></button>
+    <nav class="top-nav" aria-label="Main navigation">
+      <button type="button" data-go="home">Home</button>
+      <button type="button" data-go="works">How it works</button>
+      <button type="button" data-go="solutions">Solutions</button>
+      <button type="button" data-go="pricing">Pricing</button>
+      <a href="/app/" class="button button-light button-small">Caregiver app</a>
+      <button type="button" data-go="dashboard" class="button button-dark nav-cta">My Home <span aria-hidden="true">↗</span></button>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1" aria-live="polite"></main>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <footer class="site-foot">
+    <div class="footer-inner"><div><strong>homecue.</strong><p>Small steps. Familiar spaces. More breathing room.</p></div>
+    <p>University research prototype. Not a medical device, emergency service or substitute for human care. All plan prices are proposals. Physical guidance and alerts require installed, tested hardware.</p>
+    <small>Website + shared API + Flutter app + ESP32 lab station</small></div>
+  </footer>
+</body>
+</html>
